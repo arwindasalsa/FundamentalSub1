@@ -44,8 +44,8 @@ class DetailActivity : AppCompatActivity(){
 
         viewModel = ViewModelProvider(this)[DetailViewModel::class.java]
 
-        namedetail = intent.getStringExtra("username")
-        username = intent.getStringExtra("users")
+        username = intent.getStringExtra("username")
+        namedetail = intent.getStringExtra("users")
         userId = intent.getIntExtra("id", 0)
         avatar = intent.getStringExtra("avatar")
 
